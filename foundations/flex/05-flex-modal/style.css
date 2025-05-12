@@ -16,6 +16,9 @@ body {
 }
 
 .modal {
+  display: flex;
+  padding: 12px;
+  gap: 15px;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -34,6 +37,24 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+/* ****** Added HTML ****** */
+
+.header-div {
+  display: flex;
+  font-weight: bold;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* ************************ */
 
 .close-button {
   background: #eee;
@@ -54,6 +75,7 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  font-weight: bold;
 }
 
 button.continue {
